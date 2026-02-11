@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    animation: trocaFundo 15s infinite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    padding: 20px;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttons {
+    margin: 30px 0;
+    display: flex;
+    gap: 40px;
+}
+
+button {
+    padding: 10px;
+    font-size: 50px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: opacity 0.5s ease-in-out;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+#rock {
+    background-color: transparent;
+}
+
+#paper {
+    background-color: transparent;
+}
+
+#scissors {
+    background-color: transparent;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: rgb(229, 59, 59);
+    font-size: 50px;
+    text-decoration: aquamarine underline;
+}
+
+p {
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: rgb(101, 198, 143);
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.your-score span {
+    color: rgb(225, 216, 27);
+}
+
+.machine-score span{
+    color: rgb(199, 84, 26);
+}
+
+
+
+
+@keyframes trocaFundo {
+    0% {
+        background-image: url("https://images.unsplash.com/photo-1506744038136-46273834b3fb");
+    }
+    33% {
+        background-image: url("https://images.unsplash.com/photo-1491553895911-0055eca6402d");
+    }
+    66% {
+        background-image: url("https://images.unsplash.com/photo-1500530855697-b586d89ba3ee");
+    }
+    100% {
+        background-image: url("https://images.unsplash.com/photo-1506744038136-46273834b3fb");
+    }
+}
