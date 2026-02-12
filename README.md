@@ -18,13 +18,12 @@ Agora totalmente responsivo, funcionando perfeitamente em 💻 computadores e �
 🔗 (Coloque aqui o link do GitHub Pages quando publicar)
 Exemplo:
 
-https://seuusuario.github.io/mv-jokenpo/
-
+https://marvinmarvin2089-source.github.io/MV-Jogo/
 📸 Preview
 
 Adicione aqui um print do projeto rodando:
 
-![Preview do Projeto](./preview.png)
+![Preview do Projeto](./assets/previa.png)
 
 🚀 Funcionalidades
 
